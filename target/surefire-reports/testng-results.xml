@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-19T18:30:48 IST" name="Suite" finished-at="2025-07-19T18:35:07 IST" duration-ms="259490">
+    <groups>
+    </groups>
+    <test started-at="2025-07-19T18:30:48 IST" name="Test" finished-at="2025-07-19T18:35:07 IST" duration-ms="259490">
+      <class name="Maven_Assignments.Assignments.TestCase_4">
+        <test-method is-config="true" signature="LaunchQuit()[pri:0, instance:Maven_Assignments.Assignments.TestCase_4@78e4deb0]" started-at="2025-07-19T18:33:34 IST" name="LaunchQuit" finished-at="2025-07-19T18:34:06 IST" duration-ms="31902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchQuit -->
+        <test-method signature="Addtowishlist()[pri:0, instance:Maven_Assignments.Assignments.TestCase_4@78e4deb0]" started-at="2025-07-19T18:34:06 IST" name="Addtowishlist" finished-at="2025-07-19T18:35:07 IST" duration-ms="61074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Addtowishlist -->
+      </class> <!-- Maven_Assignments.Assignments.TestCase_4 -->
+      <class name="Maven_Assignments.Assignments.TestCase_3">
+        <test-method is-config="true" signature="LaunchQuit()[pri:0, instance:Maven_Assignments.Assignments.TestCase_3@5b1669c0]" started-at="2025-07-19T18:32:23 IST" name="LaunchQuit" finished-at="2025-07-19T18:32:47 IST" duration-ms="24906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchQuit -->
+        <test-method signature="Addtowishlist()[pri:0, instance:Maven_Assignments.Assignments.TestCase_3@5b1669c0]" started-at="2025-07-19T18:32:47 IST" name="Addtowishlist" finished-at="2025-07-19T18:33:34 IST" duration-ms="46651" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//i[@class='a-icon a-icon-close']"}
+  (Session info: MicrosoftEdge=138.0.3351.95)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [301975cb6912b07fa9393e2fe2e0964d, findElement {using=xpath, value=//i[@class='a-icon a-icon-close']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 138.0.3351.95, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53912}, msedge: {msedgedriverVersion: 138.0.3351.83 (16e2a7bef320..., userDataDir: C:\Users\hp\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53912/devtoo..., se:cdpVersion: 138.0.3351.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 301975cb6912b07fa9393e2fe2e0964d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//i[@class='a-icon a-icon-close']"}
+  (Session info: MicrosoftEdge=138.0.3351.95)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [301975cb6912b07fa9393e2fe2e0964d, findElement {using=xpath, value=//i[@class='a-icon a-icon-close']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 138.0.3351.95, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53912}, msedge: {msedgedriverVersion: 138.0.3351.83 (16e2a7bef320..., userDataDir: C:\Users\hp\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53912/devtoo..., se:cdpVersion: 138.0.3351.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 301975cb6912b07fa9393e2fe2e0964d
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy8.click(Unknown Source)
+at Maven_Assignments.Assignments.Product_Page.Cross_Button(Product_Page.java:59)
+at Maven_Assignments.Assignments.TestCase_3.Addtowishlist(TestCase_3.java:31)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Addtowishlist -->
+      </class> <!-- Maven_Assignments.Assignments.TestCase_3 -->
+      <class name="Maven_Assignments.Assignments.TestCase_2">
+        <test-method is-config="true" signature="LaunchQuit()[pri:0, instance:Maven_Assignments.Assignments.TestCase_2@1530c739]" started-at="2025-07-19T18:31:23 IST" name="LaunchQuit" finished-at="2025-07-19T18:31:46 IST" duration-ms="22535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchQuit -->
+        <test-method signature="SearchingProduct()[pri:0, instance:Maven_Assignments.Assignments.TestCase_2@1530c739]" started-at="2025-07-19T18:31:46 IST" name="SearchingProduct" finished-at="2025-07-19T18:32:23 IST" duration-ms="36999" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchingProduct -->
+      </class> <!-- Maven_Assignments.Assignments.TestCase_2 -->
+      <class name="Maven_Assignments.Assignments.TestCase_1">
+        <test-method is-config="true" signature="LaunchQuit()[pri:0, instance:Maven_Assignments.Assignments.TestCase_1@2e6a8155]" started-at="2025-07-19T18:30:48 IST" name="LaunchQuit" finished-at="2025-07-19T18:31:12 IST" duration-ms="24499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchQuit -->
+        <test-method signature="LoginToAmazon()[pri:0, instance:Maven_Assignments.Assignments.TestCase_1@2e6a8155]" started-at="2025-07-19T18:31:12 IST" name="LoginToAmazon" finished-at="2025-07-19T18:31:23 IST" duration-ms="10651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToAmazon -->
+      </class> <!-- Maven_Assignments.Assignments.TestCase_1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
